@@ -11,6 +11,6 @@ Provides alternative display modes for field notes. A display mode can be specif
 
 ## @FIELD-NOTES-DISPLAY action tag
 This [action tag](https://wiki.chpc.utah.edu/pages/viewpage.action?pageId=595001400) accepts the following inputs:
-- `hover`: Displays text it when the field is hovered over.
+- `hover`: Displays the text when the field is hovered over.
 - `tooltip`: Places a help icon, which displays the text in a tooltip when hovered over.
 - `popover`: Places a help icon, which displays the text in a popover when clicked.
