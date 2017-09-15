@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    if (typeof fieldNotesDisplay.title !== 'undefined') {
-        $.each(fieldNotesDisplay.title, function(field_name, field_notes) {
+    if (typeof fieldNotesDisplay.hover !== 'undefined') {
+        $.each(fieldNotesDisplay.hover, function(field_name, field_notes) {
             $('#' + field_name + '-tr').prop('title', field_notes).find('.note').hide();
         });
     }
