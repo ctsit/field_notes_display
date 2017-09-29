@@ -20,6 +20,7 @@ Instead of showing the entire field name next to the field, the field_note can b
 
 ### Example:
 Add the following syntax in the Action tags field, then the field_note is hidden from the view and it is shown on hover over the field name.
+
 @FIELD-NOTES-DISPLAY='hover'
 
 And similarly, if it is required to show the field_note only on the tooltip or popover, use @FIELD-NOTES-DISPLAY='tooltip' or @FILED-NOTES-DISPLAY='popover' respectively.
