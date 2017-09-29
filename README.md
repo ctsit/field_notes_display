@@ -14,3 +14,14 @@ This [action tag](https://wiki.chpc.utah.edu/pages/viewpage.action?pageId=595001
 - `hover`: Displays the text when the field is hovered over.
 - `tooltip`: Places a help icon, which displays the text in a tooltip when hovered over.
 - `popover`: Places a help icon, which displays the text in a popover when clicked.
+
+## How to use
+Instead of showing the entire field name next to the field, the field_note can be hovered over the field name.
+
+### Example:
+Add the following syntax in the Action tags field, then the field_note is hidden from the view and it is shown on hover over the field name.
+
+`@FIELD-NOTES-DISPLAY="hover"`
+
+And similarly, if it is required to show the field_note only on the tooltip or popover, use `@FIELD-NOTES-DISPLAY="tooltip"` or `@FILED-NOTES-DISPLAY="popover"` respectively.
+
