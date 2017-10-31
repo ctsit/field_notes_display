@@ -1,7 +1,7 @@
 {
     "name": "Field Notes Display",
     "namespace": "FieldNotesDisplay\\ExternalModule",
-    "description": "Provides alternative display modes for field notes.",
+    "description": "Provides alternative display modes for field notes.  This module adds an action tag @field-notes-display that accepts the following inputs: 'hover' - displays the text when the field is hovered over; 'tooltip' - places a help icon, which displays the text in a tooltip when hovered over; 'popover' - places a help icon, which displays the text in a popover when clicked.",
     "permissions": [
         "hook_every_page_top"
     ],
