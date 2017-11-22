@@ -1,3 +1,12 @@
+# Change Log
+All notable changes to the Field Notes Display project will be documented in this file.
+
+## [1.1] - 2017-11-22
+### Changed
+- Remove unneeded author entries (Philip Chase)
+- Expand on module description and improve help text (Philip Chase)
+
+
 ## [1.0.0] - 2017-10-25
 ### Summary
  - This is the first release
