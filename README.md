@@ -1,11 +1,11 @@
 # REDCap Field Notes Display
-Provides alternative display modes for field notes. This module adds an action tag `@FIELD-NOTES-DISPLAY` that takes one of three parameters, `hover`, `tooltip`, or `popover` to determine how the field note should be displayed
+Provides alternative display modes for field notes. This module adds an action tag `@FIELD-NOTES-DISPLAY` that takes one of three parameters, `hover`, `tooltip`, or `popover` to determine how the field note should be displayed.
 
 ## Prerequisites
 - [REDCap Modules](https://github.com/vanderbilt/redcap-external-modules)
 
 ## Installation
-- Clone this repo into to `<redcap-root>/modules/field_notes_display_v1.0`.
+- Clone this repo into to `<redcap-root>/modules/field_notes_display_v1.1`.
 - Go to **Control Center > Manage External Modules** and enable Field Notes Display.
 - For each project you want to use this module, go to the project home page, click on **Manage External Modules** link, and then enable Field Notes Display for that project.
 
