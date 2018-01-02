@@ -1,7 +1,7 @@
 {
     "name": "Field Notes Display",
     "namespace": "FieldNotesDisplay\\ExternalModule",
-    "description": "Provides alternative display modes for field notes.  This module adds an action tag @field-notes-display that accepts the following inputs: 'hover' - displays the text when the field is hovered over; 'tooltip' - places a help icon, which displays the text in a tooltip when hovered over; 'popover' - places a help icon, which displays the text in a popover when clicked.  See the complete <b><a href='https://github.com/ctsit/field_notes_display/tree/1.0.0' target='_blank'>documentation</a></b> at <a href='https://github.com/ctsit/field_notes_display/tree/1.0.0' target='_blank'>https://github.com/ctsit/field_notes_display/tree/1.0.0</a>.",
+    "description": "Provides alternative display modes for field notes.  This module adds an action tag @FIELD-NOTES-DISPLAY that accepts the following inputs: 'hover' - displays the text when the field is hovered over; 'tooltip' - places a help icon, which displays the text in a tooltip when hovered over; 'popover' - places a help icon, which displays the text in a popover when clicked.  See the complete <b><a href='https://github.com/ctsit/field_notes_display' target='_blank'>documentation</a></b> at <a href='https://github.com/ctsit/field_notes_display' target='_blank'>https://github.com/ctsit/field_notes_display</a>.",
     "permissions": [
         "hook_every_page_top"
     ],

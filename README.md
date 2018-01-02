@@ -11,7 +11,7 @@ Provides alternative display modes for field notes. This module adds an action t
 
 
 ## How to use
-Once the module is activated on a project, the @FIELD-NOTES-DISPLAY will be available in the action tag help text of the Online Designer. Add @FIELD-NOTES-DISPLAY to any field where you would like to display the field note using one of the three display.  Specify the display mode you would like to use as a paremeter to the action tag.  Valid display modes are `hover`, `tooltip`, and `popover`.  Provide the content of the field note as usual.
+Once the module is activated on a project, the @FIELD-NOTES-DISPLAY will be available in the action tag help text of the Online Designer. Add @FIELD-NOTES-DISPLAY to any field where you would like to display the field note using one of the three display modes.  Specify the display mode you would like to use as a parameter to the action tag.  Valid display modes are `hover`, `tooltip`, and `popover`.  Provide the content of the field note as usual.
 
 
 ### Example:
