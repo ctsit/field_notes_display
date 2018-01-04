@@ -1,7 +1,7 @@
 {
     "name": "Field Notes Display",
     "namespace": "FieldNotesDisplay\\ExternalModule",
-    "description": "Provides alternative display modes for field notes.  This module adds an action tag @field-notes-display that accepts the following inputs: 'hover' - displays the text when the field is hovered over; 'tooltip' - places a help icon, which displays the text in a tooltip when hovered over; 'popover' - places a help icon, which displays the text in a popover when clicked.",
+    "description": "Provides alternative display modes for field notes.  This module adds an action tag @FIELD-NOTES-DISPLAY that accepts the following inputs: 'hover' - displays the text when the field is hovered over; 'tooltip' - places a help icon, which displays the text in a tooltip when hovered over; 'popover' - places a help icon, which displays the text in a popover when clicked.  See the complete <b><a href='https://github.com/ctsit/field_notes_display' target='_blank'>documentation</a></b> at <a href='https://github.com/ctsit/field_notes_display' target='_blank'>https://github.com/ctsit/field_notes_display</a>.",
     "permissions": [
         "hook_every_page_top"
     ],
@@ -9,37 +9,41 @@
         {
             "name": "Philip Chase",
             "email": "pbc@ufl.edu",
-            "institution": "CTS-IT - University of Florida"
+            "institution": "University of Florida - CTSI"
         },
         {
             "name": "Taryn Stoffs",
             "email": "tls@ufl.edu",
-            "institution": "CTS-IT - University of Florida"
+            "institution": "University of Florida - CTSI"
         },
         {
             "name": "Surya Prasanna",
             "email": "suryayalla@ufl.edu",
-            "institution": "CTS-IT - University of Florida"
+            "institution": "University of Florida - CTSI"
         },
         {
             "name": "Prasad Lanka",
             "email": "planka@ufl.edu",
-            "institution": "CTS-IT - University of Florida"
+            "institution": "University of Florida - CTSI"
         },
         {
             "name": "Dileep Rajput",
             "email": "rajputd@ufl.edu",
-            "institution": "CTS-IT - University of Florida"
+            "institution": "University of Florida - CTSI"
         },
         {
             "name": "Tiago Bember",
             "email": "tbembersimeao@ufl.edu",
-            "institution": "CTS-IT - University of Florida"
+            "institution": "University of Florida - CTSI"
         },
         {
             "name": "Mike Conlon, Ph.D.",
             "email": "mconlon@ufl.edu",
-            "institution": "University of Florida"
+            "institution": "University of Florida - CTSI"
         }
-    ]
+    ],
+    "compatibility": {
+        "redcap-version-min": "8.0.3",
+        "redcap-version-max": ""
+   }
 }
