@@ -1,6 +1,22 @@
 # Change Log
 All notable changes to the Field Notes Display project will be documented in this file.
 
+
+## [1.1.1] - 2018-01-16
+### Removed
+- Remove version number from installation instructions (Philip Chase)
+
+### Changed
+- Fix typographical errors (Philip Chase)
+- Align the author institution names with the UF's name in the REDCap Consortium (Philip Chase)
+
+### Added
+- Add tag name to documentation links in config.json (Philip Chase)
+- Open module documentation in a new window (Philip Chase)
+- Set minimum redcap version to 8.0.3 to get support for semantic version numbers (Philip Chase)
+- Add a link to the documentation on Github in the config.json description (Philip Chase)
+
+
 ## [1.1] - 2017-11-22
 ### Changed
 - Remove unneeded author entries (Philip Chase)
