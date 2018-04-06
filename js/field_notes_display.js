@@ -10,8 +10,9 @@ $(document).ready(function() {
             return;
         }
 
-        var $helper = $('<a href="javascript:;" data-toggle="' + mode + '" class="help">?</span>');
+        var helper = '<a href="javascript:;" data-toggle="' + mode + '" class="help">?</span>';
         $.each(fieldNotesDisplay[mode], function(field_name, field_notes) {
+            var $helper = $(helper);
             $helper.attr(attr, field_notes);
             $('#' + field_name + '-tr .note').replaceWith($helper);
         });
