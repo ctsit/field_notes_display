@@ -2,6 +2,11 @@
 All notable changes to the Field Notes Display project will be documented in this file.
 
 
+## [1.1.2] - 2018-04-06
+### Changed
+- Fix issue #5: Fixing bug on multiple tooltips. (Tiago Bember Simeao)
+
+
 ## [1.1.1] - 2018-01-16
 ### Removed
 - Remove version number from installation instructions (Philip Chase)
